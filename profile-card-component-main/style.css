@@ -55,7 +55,7 @@ body{
 	color: hsl(0, 0%, 59%);
 }
 
-.spec2 p{
+.spec2{
 	color: hsl(0, 0%, 59%);
 	font-weight: 400;
 	margin-top: -10px;
@@ -81,7 +81,7 @@ body{
 	font-weight: 700;
 
 }
-.left-mag-edit p{
+.left-mag-edit{
 	font-weight: 400;
 	margin-top: -30px;
 	color: hsl(0, 0%, 59%);
@@ -92,7 +92,7 @@ body{
 	font-weight: 700;
 
 }
-.left-mag-edit2 p{
+.left-mag-edit2 {
 	font-weight: 400;
 	margin-top: -30px;
 	color: hsl(0, 0%, 59%);
