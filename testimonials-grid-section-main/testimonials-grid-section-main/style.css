@@ -1,0 +1,168 @@
+*{
+	box-sizing: border-box;
+}
+p{
+	font-family: Barlow Semi Condensed;
+	font-size: 13px;
+}
+body{
+	background-color: hsl(210, 46%, 95%);
+}
+
+@media screen and (max-width: 1440px){
+#all-row{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+#main{
+	float: left;
+	width: 80%;
+	padding: 10px;
+
+}
+#side{
+	float: left;
+	width: 20%;
+}
+
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+.col-1{
+	flex: 60%;
+}
+.col-2{
+	flex: 20%;
+}
+
+.first-para{
+	background-color: hsl(263, 55%, 52%);
+	background-image: url("images/bg-pattern-quotation.svg");
+	background-repeat: no-repeat;
+	background-position: 480px 20px;
+	padding: 20px;
+	margin-right: 40px;
+	margin-bottom: 20px;
+	border-radius: 10px;
+}
+.row-1{
+	display: flex;
+	flex-wrap: wrap;
+}
+.col-11{
+
+}
+.first-img{
+	margin-right: 10px;
+	margin-left: 20px;
+
+}
+.first-img img{
+	border-radius: 50px;
+	border: 1px solid white;
+}
+.user-detail{
+	margin-left: 20px;
+}
+.name{
+	font-weight: 600;
+	color: hsl(0, 0%, 100%);
+}
+.quali{
+	font-weight: 500;
+	color: hsl(0, 0%, 81%, 50%);
+	margin-top: -24px;
+}
+.main-para{
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.main-para h1{
+	font-weight: 600;
+	font-size: 19px;
+	color: hsl(0, 0%, 100%);
+}
+.main-para p{
+	margin-top: -10px;
+	color: hsl(0, 0%, 81%, 70%);
+}
+
+.second-para{
+	background-color: hsl(217, 19%, 35%);
+	border-radius: 10px;
+	padding: 20px 20px 0 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+.third-para{
+	background-color: hsl(0, 0%, 100%);
+	border-radius: 10px;
+	padding: 20px 20px 0 20px;
+	margin-right: 40px;
+	margin-bottom: 20px;
+}
+
+.name-color{
+	color: hsl(219, 29%, 14%);
+}
+.quali-color{
+	color: hsl(219, 29%, 14%, 50%) ;
+}
+.main-para-color h1{
+	color: hsl(219, 29%, 14%);
+}
+.main-para-color p{
+	color: hsl(219, 29%, 14%, 70%);
+}
+.third-image img{
+	border: 1px solid hsl(219, 29%, 14%);
+
+}
+.fourth-para{
+	background-color: hsl(219, 29%, 14%);
+	padding: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	border-radius: 10px;
+}
+.fifth-para{
+	background-color: hsl(0, 0%, 100%);
+	padding: 20px;
+	margin-top: 10px;
+	border-radius: 10px;
+}
+
+
+
+
+}
+@media screen and (max-width: 500px){
+#main{
+	width: 100%;
+}
+#side{
+	width: 100%;
+}
+
+.col-1{
+	flex: 100%;
+}
+
+.first-para{
+	margin-right: 0px;
+	background-position: 90% 20px;
+	
+}
+.second-para , .third-para, .fourth-para {
+	margin-right: 0px;
+	
+}
+
+}
+
+@media screen and (max-width: 375px){
+	
+}
