@@ -1,0 +1,33 @@
+.col-1{
+ 	flex: 100%;
+ }
+
+ .col-1 p{
+ 	padding-bottom: 20px;
+ 	border-bottom: 1px solid hsl(228, 12%, 44%);
+
+ }
+ .dark-mode .col-1 p{
+ 	border-bottom: 1px solid hsl(228, 28%, 20%);
+ }
+ .col-3{
+ 	flex: 80%;
+ }
+ .col-31{
+ 	flex: 20%;
+ }
+ button{
+ 	width: 50%;
+ }
+ .dark-edit{
+ 	margin-top: -5px;
+ }
+ .views-edit{
+ 	margin-left: 35%;
+ }
+		.col-4{
+		flex: 100%;
+	}
+	.col-5{
+	flex: 100%;
+}
