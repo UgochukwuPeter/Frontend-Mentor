@@ -1,0 +1,710 @@
+@media screen and (max-width: 1440px){
+	body{
+		margin: 0;
+		padding: 0;
+		background-color: hsl(0, 0%, 95%);
+		font-family: Commissioner;
+		overflow-x: hidden;
+	}
+	p{
+		font-size: 16px;
+	}
+	.closeUp{
+		display: none;
+	}
+	#myBtn{
+		display: none;
+	}
+	.close{
+		display: none;
+	}
+	#header{
+		background-image: url("images/image-hero-desktop.jpg");
+		background-repeat: no-repeat;
+		background-size: 100%;
+		padding: 40px;
+		width: 100%;
+	}
+	.row{
+		content: "";
+		clear: both;
+		display: table;
+	}
+	.modal{
+		float: left;
+		width: 30%;
+	}
+	.logo-header{
+		float: left;
+		width: 70%;
+		margin-bottom: 70%;
+	}
+	.modal-content a{
+			display: inline;
+			font-size: 16px;
+			color:  white;
+			text-decoration: none;
+			padding-bottom: 10px;
+			padding: 8px 16px;
+			font-weight: 700;
+			margin-top: 20px;
+
+		}
+	.modal-content a:hover{
+		border-bottom: 2px solid white;
+
+	}
+
+	#first-sec{
+		margin-top: -55%;
+		margin-left: 25%;
+		background-color: white;
+		width: 40%;
+		padding: 0 40px 40px 40px;
+		border-radius: 10px;
+
+	}
+	.bookmarkIcon{
+		display: none;
+	}
+	.logo-mas img{
+		margin-top: -30px;
+		margin-left: 45%;
+	}
+	.mas-riser{
+		text-align: center;
+	}
+	.mas-riser h1{
+		font-weight: 700;
+		color: hsl(0, 0%, 0%);
+	}
+	.mas-riser p{
+		color: hsl(0, 0%, 50%);
+		margin-top: -10px;
+	}
+	.container{
+		width: 100%;
+	}
+	.col-1{
+		float: left;
+		width: 80%;
+	}
+	.col-2{
+		float: right;
+		width: 20%;
+	}
+	.col-1 p{
+		background-color: hsl(176, 50%, 47%);
+		width: 30%;
+		padding: 20px;
+		border-radius: 50px;
+		color: white;
+		font-weight: 700;
+		cursor: pointer;
+	}
+	.col-1 p:hover{
+		background-color: hsl(176, 72%, 28%);
+	}
+	.col-2 p{
+		background-image: url("images/icon-bookmark.svg");
+		background-color: hsl(0, 0%, 95%);
+		background-width: 50%;
+		background-repeat: no-repeat;
+		padding: 20px;
+		margin-left: -50px;
+		padding-left: 60px;
+		padding-right: 10px;
+		border-radius: 50px;
+		font-weight: 700;
+		color: hsl(0, 0%, 28%);
+		cursor: pointer;
+	}
+
+	.row-2:after{
+		content: "";
+		display: table;
+		clear: both;
+	}
+
+	.section-2{
+		margin-top: 2%;
+		margin-left: 25%;
+		background-color: white;
+		width: 40%;
+		padding:40px;
+		border-radius: 10px;
+		overflow: hidden;
+	}
+	.row-3{
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.column{
+		width: 25%;
+		margin-right: 2%;
+	}
+	.amount-sec {
+		border-right: 1px solid hsl(0, 0%, 70%);
+		padding-right: 40px;
+		height: 60px;
+	}
+	.amount-sec h2{
+		font-size: 36px;
+		color: hsl(0, 0%, 0%);
+		margin-top: -10px;
+		font-weight: 700;
+	}
+	.amount-sec p{
+		margin-top: -20px;
+		color: hsl(0, 0%, 70%);
+		font-weight: 700;
+
+	}
+
+	.amount-sec2 {
+		border-right: 1px solid hsl(0, 0%, 70%);
+		padding-right: 20px;
+		padding-left: 10px;
+		height: 60px;
+	}
+	.amount-sec2 h2{
+		font-size: 36px;
+		color: hsl(0, 0%, 0%);
+		margin-top: -10px;
+		font-weight: 700;
+	}
+	.amount-sec2 p{
+		margin-top: -20px;
+		color: hsl(0, 0%, 70%);
+		font-weight: 700;
+
+	}
+	.amount-sec3{
+		padding-left: 10px;
+	}
+
+	.amount-sec3 h2{
+		font-size: 36px;
+		color: hsl(0, 0%, 0%);
+		margin-top: -10px;
+		font-weight: 700;
+	}
+	.amount-sec3 p{
+		margin-top: -20px;
+		color: hsl(0, 0%, 70%);
+		font-weight: 700;
+
+	}
+
+	#myProgress{
+
+			width: 100%;
+			background-color: hsl(0, 0%, 88%);
+			border-radius: 50px;
+		}
+
+		#myBar {
+			margin-top: 20px;
+			width: 80%;
+			height: 30%;
+			padding: 5px;
+			background-color: hsl(176, 50%, 47%);
+			text-align: center;
+			line-height: 15px;
+			color: white;
+			border-radius: 50px;
+		}
+
+		.section-3{
+		overflow: hidden;
+		margin-top: 2%;
+		margin-left: 25%;
+		margin-bottom: 2%;
+		background-color: white;
+		width: 40%;
+		padding:40px;
+		border-radius: 10px;
+		}
+		.abt-page h2{
+			font-weight: 700;
+			color: hsl(0, 0%, 0%);
+		}
+		.abt-page p{
+			margin-top: 30px;
+			color:  hsl(0, 0%, 50%);
+			font-weight: 400;
+		}
+		.move-down{
+			margin-bottom: 50px;
+		}
+		.first-div{
+			border: 1px solid  hsl(0, 0%, 80%);
+			padding: 20px;
+			padding-bottom: 10px;
+			border-radius: 10px;
+		}
+		.row-4{
+			display: flex;
+			flex-wrap: wrap;
+		}
+		.bam-1{
+			flex: 70%;
+		}
+		.bam-1 p{
+			color: hsl(0, 0%, 0%);
+			font-weight: 700;
+
+		}
+		.ple{
+			flex: 30%;
+		}
+		.ple p{
+			color: hsl(176, 50%, 47%);
+			font-weight: 700;
+		}
+		.div-p p{
+			color: hsl(0, 0%, 60%);
+			margin-top: 2px;
+		}
+		.num{
+			font-weight: 700;
+			font-size: 24px;
+		}
+		.num-1{
+			color: hsl(0, 0%, 70%);
+			font-size: 12px;
+		}
+		.ples{
+			flex: 30%;
+		}
+		.rewar{
+			background-color: hsl(176, 50%, 47%);
+			color:white;
+			padding: 10px 15px;
+			font-weight: 600;
+			border-radius: 50px;
+			cursor: pointer;
+		}
+		.rewar:hover{
+			background-color: hsl(176, 72%, 28%);
+		}
+		.first-move{
+			margin-top: 20px;
+		}
+
+	.maho-border{
+		border-color: hsl(0, 0%, 95%);
+	}
+	.maho-p p{
+		color: hsl(0, 0%, 85%);
+	}
+	.maho-color{
+		color: hsl(0, 0%, 70%);
+	}
+	.maho-color p{
+		color: hsl(0, 0%, 70%);
+	}
+	.maho-ple p{
+		color: hsl(176, 50%, 80%);
+	}
+	.maho-sele{
+		background-color: hsl(0, 0%, 85%);
+		color: white;
+		padding: 10px;
+		border-radius: 50px;
+		font-size: 18px;
+	}
+
+}
+
+@media screen and (max-width: 1200px){
+	.modal{
+		float: left;
+		width: 40%;
+	}
+	.logo-header{
+		float: left;
+		width: 60%;
+		margin-bottom: 70%;
+	}
+	.col-1 p{
+		width: 40%;
+	}
+	.col-2 p{
+		background-width: 60%;
+		margin-left: -70px;
+		padding-left: 60px;
+	}
+	.column{
+		width: 20%;
+		margin-right: 20px;
+	}
+	.amount-sec {
+		padding-right: 50px;
+	}
+	.bam-1{
+			flex: 60%;
+		}
+		.ple{
+			flex: 40%;
+		}
+	.ples{
+			flex: 40%;
+		}
+
+}
+
+@media screen and (max-width: 992px){
+	.modal{
+		width: 50%;
+	}
+	.logo-header{
+		width: 50%;
+	}
+	.col-1 p{
+		width: 50%;
+	}
+	.col-2 p{
+		background-size: 40%;
+		padding: 18px;
+		padding-left: 55px;
+		padding-right: 20px;
+	}
+	.column{
+		width: 5%;
+		margin-right: 0;
+	}
+	.amount-sec {
+		margin-right: 0;
+		padding-right: 105px;
+	}
+	.amount-sec2{
+		padding-right: 80px;
+	}
+	.bam-1{
+			flex: 50%;
+		}
+		.ple{
+			flex: 50%;
+		}
+
+}
+
+@media screen and (max-width: 768px){
+	.modal{
+		width: 55%;
+	}
+	.logo-header{
+		width: 45%;
+	}
+	.col-1 p{
+		width: 50%;
+		font-size: 12px;
+	}
+	.col-2 p{
+		width: 50%;
+		margin-left: -50px;
+		background-size: 35%;
+		padding: 13px;
+		padding-left: 50px;
+		padding-right: 60px;
+	}
+	.column{
+		width: 0;
+		margin-right: 0;
+	}
+	.amount-sec{
+		padding-right: 90px;
+	}
+	.amount-sec h2{
+		font-size: 24px;
+	}
+	.amount-sec2 h2{
+		font-size: 24px;
+	}
+	.amount-sec3 h2{
+		font-size: 24px;
+	}
+	.ples{
+			flex: 50%;
+			margin-left: -50px;
+		}
+		.ples p{
+			font-size: 12px;
+		}
+
+}
+
+
+@media screen and (max-width: 600px){
+
+	#header{
+		background-image: url("images/image-hero-mobile.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		padding: 40px;
+	}
+
+	#myBtn{
+		display: block;
+		width: 20%;
+		float: right;
+		padding-right: 20px;
+		cursor: pointer;
+	}
+	.closeUp{
+		display: none;
+		float: left;
+		z-index: 1;
+		cursor: pointer;
+		margin-top: -2px;
+	}
+
+	.logo-header{
+		width: 80%;
+		margin-bottom: 70%;
+		margin-left: -20px;
+	}
+	/*the Modal(background) */
+		.modal{
+			display: none;
+			position: fixed; /*stay in place */
+			z-index: 1; /*stay ontop of content */
+			top: 90px;
+			left: 0;
+			right: 0;
+			width: 90%;
+			height: 50%;
+			margin: auto;
+			overflow: hidden; /*enabling scroll if need be */
+			background-color: rgb(0,0,0); /*fallback color */
+			background-color: white;
+			border-radius: 10px;
+		}
+
+		/*the modal content */
+		.modal-content{
+			background-color: #fefefe;
+			margin: 2% auto; /*15% from the top and centered */
+			width: 90%; /*could be more or less, depending on the screen size */
+			padding: 20px;
+			padding-left: 0;
+
+		}
+		.modal-content a{
+			display: block;
+			font-size: 16px;
+			color:  hsl(0, 0%, 0%);
+			text-decoration: none;
+			padding-bottom: 10px;
+			padding-left: 20px;
+			font-weight: 700;
+			margin-top: 20px;
+
+		}
+		.modal-content a:not(:last-child){
+			border-bottom: 2px solid hsl(0, 0%, 90%);
+		}
+		.modal-content a:hover{
+			color: hsl(0, 0%, 48%);
+		}
+
+		#first-sec{
+		margin-top: -70px;
+		margin-left: 0;
+		width: 85%;
+		margin-left: 20px;
+		padding: 0 20px 20px 20px;
+
+	}
+	.bookmarkIcon{
+		display: block;
+		cursor: pointer;
+	}
+	.bookmarkIcon img{
+		margin-top: 10px;
+	}
+	.logo-mas img{
+		margin-left: 45%;
+	}
+	.mas-riser h1{
+		font-size: 18px;
+	}
+	.mas-riser p{
+		font-size: 12px;
+	}
+	.col-1 p{
+		width: 50%;
+		text-align: center;
+		font-size: 16px;
+		padding: 15px;
+	}
+	.bookMe{
+		display: none;
+	}
+	.col-2{
+		background-image: url("images/icon-bookmark.svg");
+	}
+	.section-2{
+		margin-left: 20px;
+		width: 85%;
+		padding:20px;
+		text-align: center;
+	}
+	.column{
+		width: 100%;
+		margin-bottom: 20px;
+	}
+	.amount-sec {
+		
+		border-right: none;
+		padding-bottom: 10px;
+	}
+	.amount-sec h2{
+		text-align: center;
+		margin-left: 40px;
+		font-size: 36px;
+	}
+	.amount-sec p{
+		width: 50%;
+		border-bottom: 1px solid hsl(0, 0%, 70%);
+		margin-left: 30%;
+		margin-top: -25px;
+		padding-bottom: 10px;
+		font-size: 16px;
+
+	}
+	.amount-sec2 {
+		border-right: none;
+		padding-bottom: 10px;
+	}
+	.amount-sec2 h2{
+		font-size: 36px;
+	}
+	.amount-sec2 p{
+		width: 50%;
+		border-bottom: 1px solid hsl(0, 0%, 70%);
+		margin-left: 25%;
+		margin-top: -25px;
+		padding-bottom: 10px;
+	}
+	.amount-sec3{
+		margin-left: -50px;
+	}
+	.amount-sec3 h2{
+		font-size: 36px;
+	}
+		#myBar {
+			margin-top: 0;
+			margin-bottom: 10px;
+		}
+	.section-3{
+		margin-left: 20px;
+		width: 85%;
+		padding:20px;
+		}
+	.abt-page h2{
+			font-size: 20px;
+		}
+	.abt-page p{
+			font-size: 16px;
+		}
+	.bam-1{
+			flex: 100%;
+		}
+		.rewar{
+			width: 30%;
+		}
+	.ple p{
+		margin-top: -10px;
+		}
+		.ples{
+			flex: 50%;
+			margin-left: 0;
+		}
+		.maho-sele{
+			width: 30%;
+		}
+	.modal-content-2{
+			width: 90%;
+			margin-top: 30%;
+		}
+	.modal-heading{
+			font-size: 18px;
+			padding-left: 10px;
+			padding-top: 0;
+		}
+	.modal-para{
+			padding-left: 10px;
+			margin-top: -10px;
+		}
+	.modal-body-2{
+			margin: 20px 10px 20px 10px;
+		}
+	.modal-body-first{
+			padding: 15px;
+		}
+	.col-4 p{
+			margin-left: 10px;
+		}
+	.para-1{
+			margin-left: 10px;
+		}
+		.col-6{
+			width: 90%;
+		}
+		.col-6 p{
+			margin-left: 10px;
+		}
+		.col-7{
+			width: 100%;
+		}
+		.col-7 p{
+			margin-left: 20px;
+			margin-top: -10px;
+		}
+		.col-8{
+			display: none;
+		}
+		.ex_me{
+			display: block;
+		}
+	.col-9{
+		width: 100%;
+		}
+	.col-9 p{
+			text-align: center;
+			padding-top: 30px;
+		}
+	.col-01{
+			width: 50%;
+			margin-left: -20px;
+		}
+	.col-01 input{
+			width: 50%;
+			margin-left: 10%;
+		}
+	.col-02{
+			width: 30%;
+		}
+	.col-02 p{
+			padding-left: 20px;
+			padding-right: 30px;
+			margin-left: 0;
+			margin-top: 30px;
+			border-radius: 30px;
+			width: 80%;
+
+		}
+	.alert-content{
+			margin: 15% auto; /*15% from the top and centered */
+			padding: 20px;
+			width: 80%;
+
+		} 
+	.alert-btn{
+			width: 50%;
+		}
+
+}
+
