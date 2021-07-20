@@ -1,0 +1,366 @@
+@media screen and (max-width: 1440px){
+	body{
+		background-color: hsl(222, 26%, 31%);
+		font-family: "Spartan", sans-serif;
+		font-weight: 700;
+		overflow-x: hidden;
+	}
+
+#container{
+	margin: 5% auto;
+	width: 80%;
+	margin-left: 20%;
+
+}
+.header{
+	display: flex;
+	flex-wrap: wrap;
+}
+.cal-head{
+	flex: 20%;
+}
+.cal-head h1{
+	color: white;
+}
+.them-switch{
+	flex: 60%;
+}
+.theme-section{
+	width: 100%;
+	margin-left: 20%;
+}
+.row-head{
+	display: table;
+	content: "";
+	clear: both;
+}
+.theme{
+	float: left;
+	padding-right: 20px;
+	color: white;
+}
+.them-sw{
+	float: left;
+	padding-right: 500px;
+	margin-top: -20px;
+	padding-left: 10px;
+}
+.nun{
+	margin-bottom: 0;
+	padding-left: 10px;
+	color: white;
+}
+
+.switch{
+	position: relative;
+	direction: inline-block;
+	width: 60px;
+	height: 34px;
+}
+.switch input{
+	opacity: 0;
+	width: 0;
+	height: 0;
+}
+.slider{
+	position: absolute;
+	cursor: pointer;
+	width: 80px;
+	height: 20px;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: hsl(223, 31%, 20%);
+	-webkit-transition: .4s;
+	transition: .4s;
+}
+
+.slider:before{
+	position: absolute;
+	content: "";
+	height: 12px;
+	width: 12px;
+	left: 8px;
+	bottom: 4px;
+	background-color: hsl(6, 63%, 50%);
+	-webkit-transition: .4s;
+	transition: .4s;
+}
+
+
+input:checked + .slider{
+	background-color: #2196F3;
+}
+
+input:focus + .slider{
+	box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before{
+	-webkit-transform: translateX(26px);
+	-ms-transform: translateX(26px);
+	transform: translateX(26px);
+}
+
+.slider.round{
+	border-radius: 34px;
+}
+.slider.round:before{
+	border-radius: 50%;
+}
+
+.container_body {
+  top: 50%;
+  left: 50%;
+  border-radius: 14px;
+  padding-bottom: 20px;
+  width: 60%;
+  
+}
+.display{
+  width: 100%;
+  height: 60px;
+  padding: 40px 0;
+  background: hsl(224, 36%, 15%);
+  border-radius: 10px;
+  margin-bottom: 20px;
+  overflow: hidden;
+  padding-left: 30px;
+}
+input[type=text] {
+  width: 100%;
+  height: 60px;
+  float: right;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+  background: none;
+  color: #ffffff;
+  text-align: right;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 60px;
+  margin: 0 25px; 
+}
+.row {
+  width: 100%;
+  float: left;
+}
+.button_container {
+	width: 100%;
+  padding: 20px;
+  background-color:hsl(223, 31%, 20%);
+  overflow: hidden;
+  border-radius: 10px; 
+  margin-bottom: 10px;
+}
+input[type=button] {
+  width: 19%;
+  height: 70px;
+  float: left;
+  padding: 0;
+  margin: 15px;
+  border-radius: 10px;
+  background: hsl(30, 25%, 89%);
+  box-shadow: 0 3px hsl(28, 16%, 65%); 
+  border: none;
+  font-size: 32px;
+  line-height: 30px;
+  font-weight: 700;
+  color: hsl(221, 14%, 31%);
+  cursor: pointer;
+  
+}
+input[type = button]:first-child{
+	margin-left: 5%;
+}
+.del{
+	background: hsl(225, 21%, 49%) !important;
+	box-shadow: 0 3px hsl(224, 28%, 35%) !important; 
+	color: white !important;
+}
+.res{
+	width: 40% !important;
+	background: hsl(225, 21%, 49%) !important;
+	box-shadow: 0 3px hsl(224, 28%, 35%) !important; 
+	color: white !important;
+}
+.red{
+	width: 45% !important;
+	background: hsl(6, 63%, 50%) !important;
+	box-shadow: 0 3px hsl(6, 70%, 34%) !important; 
+	color: white !important;
+}
+ .attribution { 
+ 	font-size: 11px; 
+ 	text-align: center;
+ 	color: hsl(225, 21%, 49%);
+ 	margin-top: -40px;
+ }
+    .attribution a {
+     color: hsl(6, 63%, 50%);
+      }
+.light-mode{
+    background-color: hsl(0, 0%, 90%);
+  }
+
+ .light-mode .cal-head h1{
+	color: hsl(60, 10%, 19%);
+}
+.light-mode .theme{
+	color: hsl(60, 10%, 19%);
+}
+.light-mode .nun{
+	color: hsl(60, 10%, 19%);
+}
+.light-mode input:checked + .slider{
+	background-color: hsl(0, 5%, 81%);
+}
+
+.light-mode .slider:before{
+	background-color: hsl(25, 98%, 40%);
+}
+.light-mode .display{
+	background-color: hsl(0, 0%, 93%);
+}
+.light-mode input[type=text] {
+  color: hsl(221, 14%, 31%); 
+}
+.light-mode .button_container{
+	background-color: hsl(0, 5%, 81%);
+}
+
+.light-mode input[type=button] {
+    color: hsl(60, 10%, 19%);
+	background-color: hsl(45, 7%, 89%);
+	box-shadow: 0 3px hsl(35, 11%, 61%);
+  
+}
+.light-mode .del , .res{
+	color: white !important;
+	background-color: hsl(185, 42%, 37%) !important;
+	box-shadow: 0 3px hsl(185, 58%, 25%) !important;
+}
+.light-mode .red{
+	color: white !important;
+	background-color: hsl(25, 98%, 40%) !important;
+	box-shadow: 0 3px hsl(25, 99%, 27%) !important;
+
+}
+
+.light-mode .attribution{
+ 	color: hsl(185, 42%, 37%) ;
+ }
+ .light-mode .attribution a{
+ 	color: hsl(25, 98%, 40%);
+ }
+
+
+}
+@media screen and (max-width: 1200px){
+
+	#container{
+	width: 90%;
+}
+.cal-head{
+	flex: 20%;
+}
+.them-switch{
+	flex: 70%;
+}
+input[type=button] {
+  width: 100px;
+  margin: 10px;
+  
+}
+input[type = button]:first-child{
+	margin-left: 5%;
+}
+
+
+}
+
+@media screen and (max-width: 992px){
+	#container{
+	width: 112%;
+}
+.cal-head{
+	flex: 20%;
+}
+.them-switch{
+	flex: 80%;
+}
+input[type=button] {
+  width: 20%;
+ 
+}
+
+}
+
+@media screen and (max-width: 768px){
+	#container{
+	width: 150%;
+	margin-left: 20px;
+
+}
+
+}
+
+@media screen and (max-width: 600px){
+	#container{
+	width: 160%;
+	margin-left: 0;
+
+}
+.cal-head{
+	flex: 0;
+}
+.them-switch{
+	flex: 80%;
+}
+.theme-section{
+	width: 100%;
+	margin-left: 20%;
+}
+.theme{
+ margin-top: 10px;
+}
+.them-sw{
+	padding-right: 100px;
+	margin-top: -10px;
+}
+.nun{
+	margin-bottom: 0;
+}
+.display{
+  width: 90%;
+}
+.button_container {
+	width: 90%;
+}
+input[type=button] {
+  width: 22%;
+  float: left;
+  padding: 0;
+  margin: 5px;
+  margin-bottom: 10px;
+  
+}
+input[type = button]:first-child{
+	margin-left: 0;
+}
+
+}
+
+@media screen and (max-width: 375px){
+	.theme-section{
+	margin-left: 10%;
+}
+input[type=button] {
+  width: 23%;
+  font-size: 25px;
+  margin: 5px 3px 10px 2px;
+}
+
+}
