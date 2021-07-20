@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://fonts.google.com/specimen/Space+Mono">
+  
+  <title>Frontend Mentor | Tip calculator app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+<section id ="container">
+  <div class="page_title">
+    <p>SPLI</p>
+    <p>TTER</p>
+  </div>
+
+  <div class="row_1 body_container">
+    <div class="col_1">
+      
+    <div class="bill-head"><p>Bill</p></div>
+    <form>
+       <div class="inputBill">
+      <input type="text" placeholder="0" id = "inputAmount" name="inputBill" />
+      <img src="images/icon-dollar.svg" alt="icon-dollar">
+    </div>
+    <div class="selTip"><p>Select Tip %</p></div>
+
+    <div class="button_container">
+      <div class="buttons">
+        <div class="row">
+          <input type="button" name="b5" id = "b5_value" value="5%">
+          <input type="button" name="b10" id="b10_value" value="10%">
+          <input type="button" name="b15" id="b15_value" value="15%" >
+        </div>
+
+        <div class="row">
+          <input type="button" name="b25" id = "b25_value" value="25%" onclick="calculateTip()" >
+          <input type="button" name="b50" id = "b50_value" value="50%" onclick="calculateTip()">
+          <input type="button" name="bx" class="custom" id= "hide_me" value="Custom" >
+          <div class="customInput" id="show_me"><input type="text" placeholder="0" id = "custom_input" name="inputPeps" /></div>
+        </div>  
+      </div>
+    </div>
+    <div class="row_2">
+      <div class="selTip col_2"><p>Number of People</p></div>
+    <div class="error col_2" id="my_error"><p>Can't be Zero</p></div>
+    </div>
+     <div class="inputPeps">
+      <input type="text" placeholder="0" id = "check_Input" class="check" name="inputPeps" />
+      <img src="images/icon-person.svg" alt="icon-person">
+    </div>
+    </form>
+
+     </div>
+
+  <div class="col_1 sec_container">
+    <div class="row_3 tipCal">
+       <div class="col_3">
+      <p>Tip Amount</p>
+      <p><span class="person">/ person</span></p>
+    </div>
+    <div class="col_3">
+      <div id= "display_tip">$0.00</div>
+      <div id = "tipAmount" ></div>
+    </div>
+    </div>
+   
+    <div class="row_3 tipCal move-up">
+    <div class="col_3">
+      <p>Total</p>
+      <p><span class="person">/ person</span></p>
+    </div>
+    <div class="col_3">
+      <div id = "display_total">$0.00</div>
+     <div id = "totalAmount"></div> 
+    </div>
+  </div>
+
+    <div class="reset">
+      <input type="button" class="del" id="delete" onclick="clr()" value="RESET">
+    </div>
+    
+  </div>
+
+  </div>
+  
+</section>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Ugochukwu Peter</a>.
+  </div>
+</body>
+<script src="script.js"></script>
+
+<script>
+ var cust = document.getElementById("hide_me");
+ var cusInput = document.getElementById("show_me");
+
+    cust.onclick = function(){
+      cusInput.style.display = "block";
+      cust.style.display = "none";
+    }
+</script>
+</html>

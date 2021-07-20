@@ -1,0 +1,352 @@
+@media screen and (max-width: 1440px){
+	body{
+		background: hsl(185, 41%, 84%);
+		font-size: 24px;
+		font-family: "Space Mono", sans-serif;
+	}
+
+	#container{
+	margin: 2% auto;
+	width: 80%;
+	overflow: hidden;
+}
+.page_title{
+	text-align: center;
+}
+.page_title p{
+	color: hsl(186, 14%, 43%);
+	font-weight: 700;
+}
+.page_title p:last-child{
+	margin-top: -20px;
+}
+.row_1{
+	display: flex;
+	flex-wrap: wrap;
+}
+.col_1{
+  flex:50%;
+}
+.body_container{
+	background: white;
+	padding: 20px;
+	border-radius: 20px;
+
+}
+.bill-head p{
+	color: hsl(186, 14%, 43%);
+	font-weight: 700;
+	padding-left: 20px;
+}
+.inputBill input[type=text] {
+ width: 87%;
+ height: 50px;
+ background:  hsl(189, 41%, 97%);
+ outline: none;
+ border: none;
+ box-sizing: border-box;
+ float: right;
+  line-height: 60px;
+  margin-right: 10%;
+  margin-bottom: 40px;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: right;
+  color: hsl(186, 14%, 43%);
+  font-size: 24px;
+  font-weight: 500;
+}
+.inputBill input[type=text]:hover{
+	border: 2px solid hsl(172, 67%, 45%);
+	cursor: pointer;
+}
+.inputBill img{
+	position: absolute;
+	z-index: 1;
+	margin: 20px;
+	margin-left: 30px;
+
+}
+.selTip p{
+	color: hsl(186, 14%, 43%);
+	font-weight: 500;
+	margin-left: 20px;
+}
+.button_container {
+	width: 100%;
+	margin-top: -20px;
+}
+.row {
+  width: 100%;
+  float: left;
+}
+input[type=button] {
+  width: 25%;
+  height: 45px;
+  float: left;
+  padding: 0;
+  margin: 15px;
+  border-radius: 5px;
+  background: hsl(183, 100%, 15%);
+  color: hsl(0, 0%, 100%);
+  border: none;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 700;
+  cursor: pointer;
+  
+}
+input[type=button]:hover{
+	background: hsl(172, 67%, 45%);
+	color: hsl(183, 100%, 15%);
+}
+
+.custom{
+	color: hsl(183, 100%, 15%) !important;
+	background: hsl(189, 41%, 97%) !important;
+	margin-bottom: 50px !important;
+}
+#hide_me{
+	display: block;
+}
+.customInput input[type= text]{
+  width: 25%;
+  height: 45px;
+  float: left;
+  padding: 10px;
+  margin: 15px;
+  text-align: right;
+  font-size: 24px;
+  box-sizing: border-box;
+  outline: none;
+  border: 2px solid hsl(172, 67%, 45%);
+  border-radius: 5px;
+  cursor: pointer;
+  color: hsl(183, 100%, 15%);
+  font-weight: 700;
+  margin-bottom: 50px
+}
+.customInput{
+	display: none;
+}
+
+.col_2{
+	float: left;
+	width: 50%;
+}
+.col_2 p{
+	font-size: 2vw;
+	margin-bottom: 30px;
+}
+.row_2:after{
+	display: table;
+	content: "";
+	clear: both;
+}
+.error p{
+	font-size: 2vw;
+	color: red;
+	margin-left: 10%;
+
+}
+.error{
+	display: none;
+}
+.inputPeps input[type = text ]{
+width: 87%;
+ height: 50px;
+ background:  hsl(189, 41%, 97%);
+ outline: none;
+ border: none;
+ box-sizing: border-box;
+ float: right;
+ line-height: 60px;
+  margin-right: 10%;
+  margin-top: -20px;
+  margin-bottom: 40px;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: right;
+  color: hsl(186, 14%, 43%);
+  font-size: 24px;
+  font-weight: 500;
+} 
+.inputPeps input[type=text]:hover{
+	border: 2px solid hsl(172, 67%, 45%);
+	cursor: pointer;
+}
+.inputPeps img{
+	position: absolute;
+	z-index: 1;
+	margin-left: 30px;
+
+}
+.sec_container{
+	background: hsl(183, 100%, 15%);
+	border-radius: 15px;
+	margin: 20px 0px 20px 0;
+	overflow: hidden;
+}
+.row_3{
+	display: flex;
+	flex: wrap;
+}
+.col_3{
+	flex: 50%;
+}
+.tipCal{
+	padding: 40px;
+}
+.col_3 p{
+	color: hsl(0, 0%, 100%);
+	font-weight: 700;
+	margin-bottom: -25px;
+}
+.person{
+	color: hsl(185, 41%, 84%);
+	font-weight: 400;
+	font-size: 20px;
+}
+#display_tip{
+	margin-top: 30px;
+	font-size: 50px;
+	font-weight: 700;
+	color: hsl(172, 67%, 45%);
+	margin-left: 20px;
+	display: block;
+}
+#display_total{
+	margin-top: 30px;
+	font-size: 50px;
+	font-weight: 700;
+	color: hsl(172, 67%, 45%);
+	margin-left: 20px;
+	display: block;
+}
+#tipAmount{
+	margin-top: 30px;
+	font-size: 50px;
+	font-weight: 700;
+	color: hsl(172, 67%, 45%);
+	margin-left: 20px;
+}
+#totalAmount{
+	margin-top: 30px;
+	font-size: 50px;
+	font-weight: 700;
+	color: hsl(172, 67%, 45%);
+	margin-left: 20px;
+	margin-bottom: 30px;
+}
+.move-up{
+	margin-top: -15%;
+}
+.reset input[type = button]{
+	width: 90%;
+	margin: 25% 30% 0 5%;
+	background:   hsl(183, 100%, 10%);
+	color: hsl(183, 100%, 15%);
+}
+.reset{
+	margin-top: -30px;
+}
+
+}
+@media screen and (max-width: 992px){
+		#container{
+	width: 100%;
+}
+input[type=button] {
+  width: 25%;
+  margin: 10px;
+  
+}
+}
+@media screen and (max-width: 768px){
+
+	#display_tip{
+	font-size: 40px;
+}
+#display_total{
+	font-size: 40px;
+}
+#tipAmount{
+	font-size: 40px;
+}
+#totalAmount{
+	font-size: 40px;
+	margin-left: 10px;
+}
+}
+@media screen and (max-width: 600px){
+	#container{
+	width: 90%;
+}
+	.col_1{
+  flex:100%;
+}
+.reset input[type = button]{
+	margin: 25% 30% 10% 5%;
+}
+.col_2 p{
+	font-size: 3.5vw;
+}	
+.error p{
+	font-size: 3.5vw;
+
+}
+
+
+}
+
+@media screen and (max-width: 375px){
+	#container{
+	width: 102%;
+}
+input[type=button] {
+  width: 90%;
+  
+}
+.customInput input[type= text]{
+  width: 85%;
+
+}
+.button_container {
+	width: 100%;
+}
+.row {
+  width: 50%;
+}
+
+.col_3{
+	float: left;
+	width: 50%;
+}
+.tipCal{
+	padding: 10px;
+}
+
+#display_tip{
+	font-size: 40px;
+	margin-left: 10px;
+}
+#tipAmount{
+	font-size: 40px;
+	margin-left: 10px;
+}
+#display_total{
+		font-size: 40px;
+	margin-left: 10px;
+}
+
+#totalAmount{
+		font-size: 40px;
+		margin-left: 15px;
+}
+
+.move-up{
+	margin-top: 0;
+}
+
+
+}
